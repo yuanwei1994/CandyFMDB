@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA178FA1E1F15BD14739E3E /* libPods-CandyFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C28D95FD1088E75A2A4142EF /* libPods-CandyFMDB.a */; };
+		361CCEF11FA063DC00873086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCEF01FA063DC00873086 /* AppDelegate.m */; };
+		361CCEF41FA063DC00873086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCEF31FA063DC00873086 /* ViewController.m */; };
+		361CCEF71FA063DC00873086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361CCEF51FA063DC00873086 /* Main.storyboard */; };
+		361CCEF91FA063DC00873086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361CCEF81FA063DC00873086 /* Assets.xcassets */; };
+		361CCEFC1FA063DC00873086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361CCEFA1FA063DC00873086 /* LaunchScreen.storyboard */; };
+		361CCEFF1FA063DC00873086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCEFE1FA063DC00873086 /* main.m */; };
+		361CCF091FA063DC00873086 /* CandyFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCF081FA063DC00873086 /* CandyFMDBTests.m */; };
+		361CCF141FA063DC00873086 /* CandyFMDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCF131FA063DC00873086 /* CandyFMDBUITests.m */; };
+		361CCF261FA0784600873086 /* CandyDBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCF251FA0784600873086 /* CandyDBObject.m */; };
+		361CCF2C1FA083BE00873086 /* BaseBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCF2B1FA083BE00873086 /* BaseBean.m */; };
+		361CCF2F1FA0852600873086 /* CarBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCF2E1FA0852600873086 /* CarBean.m */; };
+		361CCF321FA085C000873086 /* UserBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CCF311FA085C000873086 /* UserBean.m */; };
+		4EC39C5518630585940F2FB0 /* libPods-CandyFMDBUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49156854647522A58FDB3696 /* libPods-CandyFMDBUITests.a */; };
+		997DC9C4169E22C76CB26EC8 /* libPods-CandyFMDBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1161335D72FB4A2BD9D372 /* libPods-CandyFMDBTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361CCF051FA063DC00873086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361CCEE41FA063DC00873086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361CCEEB1FA063DC00873086;
+			remoteInfo = CandyFMDB;
+		};
+		361CCF101FA063DC00873086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361CCEE41FA063DC00873086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361CCEEB1FA063DC00873086;
+			remoteInfo = CandyFMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121552871B28242480DB3EA6 /* Pods-CandyFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyFMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyFMDB/Pods-CandyFMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		3280A2D6C072F9EAEAD9EC13 /* Pods-CandyFMDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyFMDBUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyFMDBUITests/Pods-CandyFMDBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		361CCEEC1FA063DC00873086 /* CandyFMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyFMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361CCEEF1FA063DC00873086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		361CCEF01FA063DC00873086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		361CCEF21FA063DC00873086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		361CCEF31FA063DC00873086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		361CCEF61FA063DC00873086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		361CCEF81FA063DC00873086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361CCEFB1FA063DC00873086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		361CCEFD1FA063DC00873086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361CCEFE1FA063DC00873086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		361CCF041FA063DC00873086 /* CandyFMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyFMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361CCF081FA063DC00873086 /* CandyFMDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyFMDBTests.m; sourceTree = "<group>"; };
+		361CCF0A1FA063DC00873086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361CCF0F1FA063DC00873086 /* CandyFMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyFMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361CCF131FA063DC00873086 /* CandyFMDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyFMDBUITests.m; sourceTree = "<group>"; };
+		361CCF151FA063DC00873086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361CCF241FA0784600873086 /* CandyDBObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandyDBObject.h; sourceTree = "<group>"; };
+		361CCF251FA0784600873086 /* CandyDBObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyDBObject.m; sourceTree = "<group>"; };
+		361CCF2A1FA083BE00873086 /* BaseBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseBean.h; sourceTree = "<group>"; };
+		361CCF2B1FA083BE00873086 /* BaseBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseBean.m; sourceTree = "<group>"; };
+		361CCF2D1FA0852600873086 /* CarBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarBean.h; sourceTree = "<group>"; };
+		361CCF2E1FA0852600873086 /* CarBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarBean.m; sourceTree = "<group>"; };
+		361CCF301FA085C000873086 /* UserBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserBean.h; sourceTree = "<group>"; };
+		361CCF311FA085C000873086 /* UserBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserBean.m; sourceTree = "<group>"; };
+		49156854647522A58FDB3696 /* libPods-CandyFMDBUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyFMDBUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1161335D72FB4A2BD9D372 /* libPods-CandyFMDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyFMDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15B4B6745CDFB3B0590CD3D /* Pods-CandyFMDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyFMDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyFMDBTests/Pods-CandyFMDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5B1C0FF98D27BDB0B84332 /* Pods-CandyFMDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyFMDBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyFMDBUITests/Pods-CandyFMDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28D95FD1088E75A2A4142EF /* libPods-CandyFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyFMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D893885F6CFB543BDF710A01 /* Pods-CandyFMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyFMDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyFMDBTests/Pods-CandyFMDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF5F75C3E9B9BB55C332ECAD /* Pods-CandyFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyFMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyFMDB/Pods-CandyFMDB.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361CCEE91FA063DC00873086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA178FA1E1F15BD14739E3E /* libPods-CandyFMDB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361CCF011FA063DC00873086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DC9C4169E22C76CB26EC8 /* libPods-CandyFMDBTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361CCF0C1FA063DC00873086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC39C5518630585940F2FB0 /* libPods-CandyFMDBUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E96C944070B12D093910AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C28D95FD1088E75A2A4142EF /* libPods-CandyFMDB.a */,
+				7A1161335D72FB4A2BD9D372 /* libPods-CandyFMDBTests.a */,
+				49156854647522A58FDB3696 /* libPods-CandyFMDBUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		361CCEE31FA063DC00873086 = {
+			isa = PBXGroup;
+			children = (
+				361CCEEE1FA063DC00873086 /* CandyFMDB */,
+				361CCF071FA063DC00873086 /* CandyFMDBTests */,
+				361CCF121FA063DC00873086 /* CandyFMDBUITests */,
+				361CCEED1FA063DC00873086 /* Products */,
+				3A1DFD3B7233067069DF08E9 /* Pods */,
+				1E96C944070B12D093910AE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		361CCEED1FA063DC00873086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361CCEEC1FA063DC00873086 /* CandyFMDB.app */,
+				361CCF041FA063DC00873086 /* CandyFMDBTests.xctest */,
+				361CCF0F1FA063DC00873086 /* CandyFMDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361CCEEE1FA063DC00873086 /* CandyFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				361CCEEF1FA063DC00873086 /* AppDelegate.h */,
+				361CCEF01FA063DC00873086 /* AppDelegate.m */,
+				361CCEF21FA063DC00873086 /* ViewController.h */,
+				361CCEF31FA063DC00873086 /* ViewController.m */,
+				361CCEF51FA063DC00873086 /* Main.storyboard */,
+				361CCEF81FA063DC00873086 /* Assets.xcassets */,
+				361CCEFA1FA063DC00873086 /* LaunchScreen.storyboard */,
+				361CCEFD1FA063DC00873086 /* Info.plist */,
+				361CCEFE1FA063DC00873086 /* main.m */,
+				361CCF291FA0839800873086 /* Model */,
+				361CCF211FA0669700873086 /* Tools */,
+			);
+			path = CandyFMDB;
+			sourceTree = "<group>";
+		};
+		361CCF071FA063DC00873086 /* CandyFMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				361CCF081FA063DC00873086 /* CandyFMDBTests.m */,
+				361CCF0A1FA063DC00873086 /* Info.plist */,
+			);
+			path = CandyFMDBTests;
+			sourceTree = "<group>";
+		};
+		361CCF121FA063DC00873086 /* CandyFMDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361CCF131FA063DC00873086 /* CandyFMDBUITests.m */,
+				361CCF151FA063DC00873086 /* Info.plist */,
+			);
+			path = CandyFMDBUITests;
+			sourceTree = "<group>";
+		};
+		361CCF211FA0669700873086 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				361CCF241FA0784600873086 /* CandyDBObject.h */,
+				361CCF251FA0784600873086 /* CandyDBObject.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		361CCF291FA0839800873086 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				361CCF2A1FA083BE00873086 /* BaseBean.h */,
+				361CCF2B1FA083BE00873086 /* BaseBean.m */,
+				361CCF2D1FA0852600873086 /* CarBean.h */,
+				361CCF2E1FA0852600873086 /* CarBean.m */,
+				361CCF301FA085C000873086 /* UserBean.h */,
+				361CCF311FA085C000873086 /* UserBean.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A1DFD3B7233067069DF08E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				121552871B28242480DB3EA6 /* Pods-CandyFMDB.debug.xcconfig */,
+				DF5F75C3E9B9BB55C332ECAD /* Pods-CandyFMDB.release.xcconfig */,
+				A15B4B6745CDFB3B0590CD3D /* Pods-CandyFMDBTests.debug.xcconfig */,
+				D893885F6CFB543BDF710A01 /* Pods-CandyFMDBTests.release.xcconfig */,
+				BE5B1C0FF98D27BDB0B84332 /* Pods-CandyFMDBUITests.debug.xcconfig */,
+				3280A2D6C072F9EAEAD9EC13 /* Pods-CandyFMDBUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361CCEEB1FA063DC00873086 /* CandyFMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361CCF181FA063DC00873086 /* Build configuration list for PBXNativeTarget "CandyFMDB" */;
+			buildPhases = (
+				C21D6FEB694F16865D22F0DC /* [CP] Check Pods Manifest.lock */,
+				361CCEE81FA063DC00873086 /* Sources */,
+				361CCEE91FA063DC00873086 /* Frameworks */,
+				361CCEEA1FA063DC00873086 /* Resources */,
+				2893F0174C82E1CFFD2321C8 /* [CP] Embed Pods Frameworks */,
+				4710E0D7A0656DE30ABFE4F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandyFMDB;
+			productName = CandyFMDB;
+			productReference = 361CCEEC1FA063DC00873086 /* CandyFMDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361CCF031FA063DC00873086 /* CandyFMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361CCF1B1FA063DC00873086 /* Build configuration list for PBXNativeTarget "CandyFMDBTests" */;
+			buildPhases = (
+				E7D2CB7CA751428E77BCA75A /* [CP] Check Pods Manifest.lock */,
+				361CCF001FA063DC00873086 /* Sources */,
+				361CCF011FA063DC00873086 /* Frameworks */,
+				361CCF021FA063DC00873086 /* Resources */,
+				B4E4C323BEFB43E705B226F7 /* [CP] Embed Pods Frameworks */,
+				96CCECE31C65BA789E0B5176 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361CCF061FA063DC00873086 /* PBXTargetDependency */,
+			);
+			name = CandyFMDBTests;
+			productName = CandyFMDBTests;
+			productReference = 361CCF041FA063DC00873086 /* CandyFMDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		361CCF0E1FA063DC00873086 /* CandyFMDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361CCF1E1FA063DC00873086 /* Build configuration list for PBXNativeTarget "CandyFMDBUITests" */;
+			buildPhases = (
+				FB672209C5751049097BF2C3 /* [CP] Check Pods Manifest.lock */,
+				361CCF0B1FA063DC00873086 /* Sources */,
+				361CCF0C1FA063DC00873086 /* Frameworks */,
+				361CCF0D1FA063DC00873086 /* Resources */,
+				0F125D64484B202C7D3C7BB0 /* [CP] Embed Pods Frameworks */,
+				4A4B854147464AB27EE0850A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361CCF111FA063DC00873086 /* PBXTargetDependency */,
+			);
+			name = CandyFMDBUITests;
+			productName = CandyFMDBUITests;
+			productReference = 361CCF0F1FA063DC00873086 /* CandyFMDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361CCEE41FA063DC00873086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.zhiweism;
+				TargetAttributes = {
+					361CCEEB1FA063DC00873086 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					361CCF031FA063DC00873086 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 361CCEEB1FA063DC00873086;
+					};
+					361CCF0E1FA063DC00873086 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 361CCEEB1FA063DC00873086;
+					};
+				};
+			};
+			buildConfigurationList = 361CCEE71FA063DC00873086 /* Build configuration list for PBXProject "CandyFMDB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361CCEE31FA063DC00873086;
+			productRefGroup = 361CCEED1FA063DC00873086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361CCEEB1FA063DC00873086 /* CandyFMDB */,
+				361CCF031FA063DC00873086 /* CandyFMDBTests */,
+				361CCF0E1FA063DC00873086 /* CandyFMDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361CCEEA1FA063DC00873086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361CCEFC1FA063DC00873086 /* LaunchScreen.storyboard in Resources */,
+				361CCEF91FA063DC00873086 /* Assets.xcassets in Resources */,
+				361CCEF71FA063DC00873086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361CCF021FA063DC00873086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361CCF0D1FA063DC00873086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F125D64484B202C7D3C7BB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyFMDBUITests/Pods-CandyFMDBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2893F0174C82E1CFFD2321C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyFMDB/Pods-CandyFMDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4710E0D7A0656DE30ABFE4F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyFMDB/Pods-CandyFMDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4B854147464AB27EE0850A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyFMDBUITests/Pods-CandyFMDBUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CCECE31C65BA789E0B5176 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyFMDBTests/Pods-CandyFMDBTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E4C323BEFB43E705B226F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyFMDBTests/Pods-CandyFMDBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C21D6FEB694F16865D22F0DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CandyFMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D2CB7CA751428E77BCA75A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CandyFMDBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB672209C5751049097BF2C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CandyFMDBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361CCEE81FA063DC00873086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361CCEF41FA063DC00873086 /* ViewController.m in Sources */,
+				361CCEFF1FA063DC00873086 /* main.m in Sources */,
+				361CCF2F1FA0852600873086 /* CarBean.m in Sources */,
+				361CCF2C1FA083BE00873086 /* BaseBean.m in Sources */,
+				361CCF321FA085C000873086 /* UserBean.m in Sources */,
+				361CCF261FA0784600873086 /* CandyDBObject.m in Sources */,
+				361CCEF11FA063DC00873086 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361CCF001FA063DC00873086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361CCF091FA063DC00873086 /* CandyFMDBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361CCF0B1FA063DC00873086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361CCF141FA063DC00873086 /* CandyFMDBUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361CCF061FA063DC00873086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361CCEEB1FA063DC00873086 /* CandyFMDB */;
+			targetProxy = 361CCF051FA063DC00873086 /* PBXContainerItemProxy */;
+		};
+		361CCF111FA063DC00873086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361CCEEB1FA063DC00873086 /* CandyFMDB */;
+			targetProxy = 361CCF101FA063DC00873086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		361CCEF51FA063DC00873086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361CCEF61FA063DC00873086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		361CCEFA1FA063DC00873086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361CCEFB1FA063DC00873086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361CCF161FA063DC00873086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		361CCF171FA063DC00873086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361CCF191FA063DC00873086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121552871B28242480DB3EA6 /* Pods-CandyFMDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = CandyFMDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.CandyFMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361CCF1A1FA063DC00873086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5F75C3E9B9BB55C332ECAD /* Pods-CandyFMDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = CandyFMDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.CandyFMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		361CCF1C1FA063DC00873086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15B4B6745CDFB3B0590CD3D /* Pods-CandyFMDBTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = CandyFMDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.CandyFMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandyFMDB.app/CandyFMDB";
+			};
+			name = Debug;
+		};
+		361CCF1D1FA063DC00873086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D893885F6CFB543BDF710A01 /* Pods-CandyFMDBTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = CandyFMDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.CandyFMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandyFMDB.app/CandyFMDB";
+			};
+			name = Release;
+		};
+		361CCF1F1FA063DC00873086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5B1C0FF98D27BDB0B84332 /* Pods-CandyFMDBUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = CandyFMDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.CandyFMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CandyFMDB;
+			};
+			name = Debug;
+		};
+		361CCF201FA063DC00873086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3280A2D6C072F9EAEAD9EC13 /* Pods-CandyFMDBUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = CandyFMDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.CandyFMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CandyFMDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361CCEE71FA063DC00873086 /* Build configuration list for PBXProject "CandyFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361CCF161FA063DC00873086 /* Debug */,
+				361CCF171FA063DC00873086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361CCF181FA063DC00873086 /* Build configuration list for PBXNativeTarget "CandyFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361CCF191FA063DC00873086 /* Debug */,
+				361CCF1A1FA063DC00873086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361CCF1B1FA063DC00873086 /* Build configuration list for PBXNativeTarget "CandyFMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361CCF1C1FA063DC00873086 /* Debug */,
+				361CCF1D1FA063DC00873086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361CCF1E1FA063DC00873086 /* Build configuration list for PBXNativeTarget "CandyFMDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361CCF1F1FA063DC00873086 /* Debug */,
+				361CCF201FA063DC00873086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361CCEE41FA063DC00873086 /* Project object */;
+}
